@@ -309,6 +309,11 @@ margin-bottom: 60px;
   text-align: center;
   margin: 0;
 }
+
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
 /* Reviews */
 
 .reviews {

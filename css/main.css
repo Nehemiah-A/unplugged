@@ -111,6 +111,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
  
 h3, 
@@ -309,7 +310,6 @@ margin-bottom: 60px;
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -572,6 +572,10 @@ aside .content-wrapper .form {
   margin-bottom: 20px;
 }
 
+.features .features-items {
+  align-items: flex-start;
+}
+
 .features article {
  display: flex;
  align-items: center;
@@ -581,6 +585,10 @@ aside .content-wrapper .form {
 
 .features .features-item-description {
   width: 62%;
+}
+
+.features i {
+  margin-bottom: 30px;
 }
 
 /* Reviews */
@@ -593,6 +601,7 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;        
 }
@@ -605,14 +614,12 @@ aside .content-wrapper .form {
 /* Footer */
 footer .content-wrapper {
   width: 65%;
-  margin: 100px 0;
 }
 
 .footer-content {
  display: flex;
  justify-content: space-between;
  align-items: center;
- flex-direction: row;
 }
 
 footer .contact {
@@ -701,7 +708,7 @@ footer .social-icons {
   }
   
   header {
-      padding:15px 0;
+      padding: 15px 0;
   }
 
   h2 {
@@ -791,13 +798,6 @@ footer .social-icons {
     font-size: 1.125em;
     line-height: 1;
   }
-}
-
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
